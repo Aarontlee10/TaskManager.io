@@ -23,7 +23,6 @@ router.get('/task/:id', function(req, res, next){
 	});
 });
 
-
 //Save Task
 router.post('/task', function(req, res, next){
 	if (!task.title || (task.isDone + '')) {
